@@ -2,7 +2,7 @@
 <html>
   <head>
       <title>@yield('title','Sample') - Laravel 新手入门教程</title>
-      <link rel="stylesheet" href="/css/app.css">
+      <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   </head>
   <body>
     <header class="navbar navbar-fixed-top navbar-inverse">
