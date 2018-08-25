@@ -1,5 +1,5 @@
 // Bootstrap
-mix.scripts('../../../node_modules/bootstra-sass/assets/javascript/bootstrap.min.js');
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
 $navbar-color: #3c3e42;
 
